@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./img/favicon.png">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Sobre Teixeira Soares</title>
+        <style>
+            #historia blockquote {
+                text-align: center;
+                text-indent: 20px;
+                margin-left: 15px;
+                color: rgb(90, 90, 90);
+                border: 1px dashed rgba(var(--cor-principal), 0.7);
+                border-radius: 7px;
+                padding: 5px 15px;
+                transition: all .5s;
+            }
+
+            #historia blockquote:hover, #historia blockquote:focus {
+                color: black;
+                border-color: rgb(var(--cor-principal))
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="" title="Voltar para a página central">
+                <img src="./img/home.png" alt="home" width="40px">
+            </a>
+            Apresentando Minha Cidade: Teixeira Soares
+        </header>
+        <div id="main">
+            <article>
+                <h1>Teixeira Soares</h1>
+                <p>Uma pequena cidade no interior do Paraná.</p>
+                <figure>
+                    <img src="./img/igreja-matriz-teixeira-soares.jpg" alt="Imagem da igreja matriz da cidade de Teixeira Soares." style="max-width: 1280px;">
+                    <figcaption>Imagem da igreja matriz da cidade de Teixeira Soares.</figcaption>
+                </figure>
+                
+                <h2>História</h2>
+                <div id="historia">
+                    <p>Segundo o <a href="http://www.teixeirasoares.pr.gov.br/index.php?sessao=b054603368kcb0&id=1591" target="_blank">site do município</a> sobre o assunto: </p>
+                    <blockquote cite="http://www.teixeirasoares.pr.gov.br/index.php?sessao=b054603368kcb0&id=1591">
+                    <p>Existente desde 1734, ligado diretamente à movimentos históricos como o caminho dos tropeiros através da "Estrada da Mata" e a chegada da estrada de ferro. Prevendo os benefícios que a estrada de ferro traria, os moradores da região doaram terrenos para construção de uma estação ferroviária próximo do povoamento que foi inaugurada em 1900.</p>
+                    <p>Entre os ciclos econômicos desenvolvidos na região do município, seguem-se o extrativismo madeireiro, a erva-mate, a pecuária e a agricultura. Criado através da Lei Estadual nº 1696, de 26 de março de 1917, e instalado em 14 de julho do mesmo ano, foi desmembrado de Palmeira. O seu nome é em homenagem ao Engenheiro João Teixeira Soares.</p>
+                    <p>As primeiras penetrações por civilizados no território do atual Município de Teixeira Soares foram feitas por tropeiros, a partir da segunda metade do século XIX, os quais cruzavam a região através de picadas abertas na mata virgem, nas suas viagens com destino a Ponta Grossa, procedentes do Sul do Estado do Paraná.</p></blockquote>
+                </div>
+
+                <h2>Bandeira</h2>
+                <Figure>
+                    <img src="./img/bandeira-teixeira-soares.jpg" alt="Bandeira do município de Teixeira Soares" style="max-width: 500px;">
+                    <figcaption>Bandeira do município de Teixeira Soares</figcaption>
+                </Figure>
+
+                <h2>Hino</h2>
+                <audio controls style="width: 65%;" onplay="document.getElementsByTagName('audio')[0].volume = 0.2">
+                    <source src="./audio/hino-teixeira-soares.mp3" type="audio/mp3">
+                </audio>
+
+                <h3>Letra</h3>
+                <p><pre>
+                Teixeira Soares me viu nascer,
+                Toda enfeitada de pinheirais
+                Por isso amá-la é meu dever,
+                Sem esquecê-la, nunca jamais
+
+                É pequena no presente,
+                Será grande no porvir.
+                Sua glória do passado
+                Há de um dia ressurgir
+                
+                Município a nós querido,
+                Nosso amor dele será.
+                Como estrela reluzente
+                Brilhará no Paraná.
+                
+                Deus permita que façamos,
+                Com esforço varonil
+                A grandeza desta terra,
+                Pedacinho do Brasil.
+                </pre></p>
+                <p><span class="negrito">Letra e Música</span>: Padre Francisco Salache (1915-1994)</p>
+            </article>
+            <footer>Para mais informações, <a href="http://www.teixeirasoares.pr.gov.br/" target="_blank">visite o site do município</a></footer>
+        </div>
+    </body>
+</html>
