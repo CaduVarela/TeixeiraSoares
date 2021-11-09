@@ -17,11 +17,12 @@ p {
 
 h1 {
     font-size: 24pt;
-    padding: 0 5px;
+    padding: 5px 30px;
     margin: 5px 0 20px;
     color: rgba(var(--cor-principal), .8);
+    border-radius: 10px 10px 0 0;
     border-bottom: 1px solid rgb(120, 120, 120);
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .05);
 }
 
 h2 {
@@ -40,19 +41,28 @@ h3 {
     width: 65%;
     padding: 25px;
     margin: 0 auto;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, .2);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .1);
 }
 
-/* Figure & Image */
+article {
+    height: 100%;
+    margin: 0;
+    padding: 15px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+}
+
+/* Figure, Image & Iframe */
 
 figure {
     text-align: center;
     padding: 0;
-    margin: 0 auto;
+    margin: 0 auto 25px;
 }
 
 figure img {
     width: 90%;
+    max-width: 800px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .4);
     border: 1px solid rgb(70, 70, 70);
 }
@@ -60,6 +70,13 @@ figure img {
 figure figcaption {
     font-size: 10pt;
     color: rgb(90, 90, 90);
+}
+
+iframe {
+    width: 90%;
+    height: 450px;
+    max-width: 800px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .4);
 }
 
 /* Header & Footer*/
@@ -70,7 +87,7 @@ header {
 
     top: 0;
     margin: 0;
-    padding: 0;
+    padding: 5px 0 0;
 
     text-indent: 30px;
     align-items: center;
@@ -86,11 +103,20 @@ header {
 
 header table, header tr, header td {
     height: 100%;
+    margin-top: -5px;
 }
 
 header table tr td {
-    padding: 3px 8px;
+    padding: 4px 8px;
     border-left: 1px solid rgb(32, 110, 32);
+}
+
+#botaoHome {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#botaoHome img {
+    filter: invert(.9);
 }
 
 footer {
