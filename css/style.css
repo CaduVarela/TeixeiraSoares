@@ -48,7 +48,7 @@ article {
     height: 100%;
     margin: 0;
     padding: 15px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, .1);
+    /*box-shadow: 1px 1px 8px rgba(0, 0, 0, .1);*/
     border-radius: 8px;
 }
 
@@ -76,6 +76,7 @@ iframe {
     width: 90%;
     height: 450px;
     max-width: 800px;
+    min-width: 641px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .4);
 }
 
