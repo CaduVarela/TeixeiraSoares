@@ -126,6 +126,12 @@ header table tr td {
     filter: invert(1);
 }
 
+#botaoTopo {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+
 footer {
     border-top: 1px solid rgb(120, 120, 120);
     font-size: 10pt;
