@@ -9,6 +9,7 @@ body {
     font-size: 12pt;
     padding: 0;
     margin: 0;
+    background-color: white;
 }
 
 p {
@@ -18,30 +19,36 @@ p {
 h1 {
     font-size: 24pt;
     padding: 5px 30px;
-    margin: 5px 0 20px;
+    margin: 20px 0;
     color: rgba(var(--cor-principal), .8);
     border-radius: 10px 10px 0 0;
     border-bottom: 1px solid rgb(120, 120, 120);
-    background-color: rgba(0, 0, 0, .05);
+    background-color: rgb(235, 235, 235);
 }
 
 h2 {
     font-size: 20pt;
-    margin: 5px 0 20px;
-    color: black;
+    margin: 20px 0;
+    color: rgb(133, 194, 156);
 }
 
 h3 {
     font-size: 16pt;
-    margin: 5px 0 20px;
-    color: rgba(0, 0, 0, .6);
+    margin: 20px 0;
+    color: rgba(110, 110, 110);
+}
+
+h4 {
+    font-size: 14pt;
+    margin: 20px 0;
+    color: rgba(140, 140, 140);
 }
 
 #main {
     width: 65%;
     padding: 25px;
     margin: 0 auto;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, .1);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, .2);
 }
 
 article {
@@ -74,9 +81,9 @@ figure figcaption {
 
 iframe {
     width: 90%;
-    height: 450px;
+    height: 430px;
     max-width: 800px;
-    min-width: 641px;
+    /*min-width: 641px;*/
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .4);
 }
 
@@ -93,8 +100,6 @@ header {
     text-indent: 30px;
     align-items: center;
 
-    height: 50px;
-
     border-bottom: 1px solid rgb(30, 75, 30);
     font-size: 20pt;
     color: white;
@@ -105,6 +110,7 @@ header {
 header table, header tr, header td {
     height: 100%;
     margin-top: -5px;
+    padding: 0;
 }
 
 header table tr td {
@@ -117,7 +123,7 @@ header table tr td {
 }
 
 #botaoHome img {
-    filter: invert(.9);
+    filter: invert(1);
 }
 
 footer {
@@ -126,6 +132,23 @@ footer {
     color: rgb(50, 50, 50);
     padding: 10px 5px 0;
     margin-top: 15px;
+}
+
+/* Ancoras (links) */
+a {
+    color: rgb(var(--cor-principal));
+}
+
+a:hover {
+    color: rgb(34, 104, 60);
+}
+
+a:active {
+    color: rgb(255, 88, 70);
+}
+
+a:visited {
+    color: rgb(108, 98, 151);
 }
 
 /* classes */

@@ -6,7 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="./img/favicon.png">
         <link rel="stylesheet" href="./css/style.css">
-        <title>Sobre Teixeira Soares</title>
+        <title>Localização - Teixeira Soares</title>
+        <style>
+            #mapa {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            #mapa iframe {
+                height: 500px;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -23,18 +34,11 @@
         </header>
         <div id="main">
             <article>
-                <h1>Teixeira Soares</h1>
-                <p>Uma pequena cidade no interior do Paraná.</p>
-                <figure>
-                    <img src="./img/igreja-matriz-teixeira-soares.jpg" alt="Imagem da igreja matriz da cidade de Teixeira Soares." style="max-width: 600px;">
-                    <figcaption>Imagem da igreja matriz no centro da cidade de Teixeira Soares.</figcaption>
-                </figure>
-                
-                <h2><a href="./historia.html">História</a></h2>
-                <h2><a href="./bandeira&hino.html">Bandeira e Hino</a></h2>
-                <h2><a href="./eventos.html">Eventos</a></h2>
-                <h2><a href="./localizacao.html">Localização</a></h2>
-                
+                <h1>Localização de Teixeira Soares</h1>
+                <p>A cidade de Teixeira Soares está localizada no estado do Paraná e fica proxima de Ponta Grossa. Veja no mapa incorporado do <i>Google Maps</i> (note que toda a área de dentro do traço vermelho pertence ao município):</p>
+                <div id="mapa" class="centralizado">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40787.46980078598!2d-50.47821997160971!3d-25.366722546587717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e8765edd2abebb%3A0x2ed77f808beff245!2sTeixeira%20Soares%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1636595178933!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+                </div>
             </article>
             <footer>Para mais informações, <a href="http://www.teixeirasoares.pr.gov.br/" target="_blank">visite o site do município</a></footer>
         </div>
