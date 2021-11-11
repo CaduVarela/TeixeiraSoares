@@ -5,6 +5,13 @@
 
 :root {
     --cor-principal: 51, 153, 90;
+
+    --cor-fonte: black;
+    --cor-fonte-titulo: 51, 153, 90;
+
+    --cor-fundo-body: white;
+    --cor-fundo-main: white;
+    --cor-fundo-secundaria: 230, 230, 230;
 }
 
 body, pre {
@@ -12,7 +19,8 @@ body, pre {
     font-size: 12pt;
     padding: 0;
     margin: 0;
-    background-color: white;
+    background-color: rgb(var(--cor-fundo-body));
+    color: rgb(var(--cor-fonte));
 }
 
 p {
@@ -25,9 +33,9 @@ h1 {
     font-weight: 800;
     padding: 5px 30px;
     margin: 20px 0;
-    color: rgba(var(--cor-principal), .8);
+    color: rgba(var(--cor-fonte-titulo), 1);
     border-radius: 25px;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(var(--cor-fundo-secundaria));
 }
 
 h2 {
@@ -56,6 +64,7 @@ h4 {
     padding: 25px;
     margin: 0 auto;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, .2);
+    background-color: rgb(var(--cor-fundo-main));
 }
 
 article {
